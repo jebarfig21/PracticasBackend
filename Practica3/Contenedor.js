@@ -115,9 +115,20 @@ async deleteAll(){
     console.log("No es posible eliminar los datos en este momento, intente de nuevo")
   }
 }
+
+/**
+* @return {Objecto} Con base en todos los elementos del archivo se va regresar un objeto aleatorio
+*
+*/
+async getRandomElement(){
+  try{
+    let productos = await this.getAll()
+    return productos[Math.floor(Math.random() * productos.length)]
+  }catch{
+    console.log("No se pudo obtener ningún elemento")
+  }
+}
+
 }//class
 
-/********************
-* Seción de pruebas *
-*********************/
 module.exports = Contenedor

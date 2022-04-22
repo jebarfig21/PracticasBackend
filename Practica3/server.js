@@ -12,11 +12,16 @@ const server = app.listen(PORT, ()=>{
 
 
 app.get('/', (req,res)=>{
-  res.send("hola")
+  res.send("Este es mi HOME")
 })
 
 
-app.get('/productos', (req,res)=>{
-  console.log(Promise.resolve(container.getAll()))
-  res.send("hola")
+app.get('/productos',async (req,res)=>{
+  //console.log(await container.getAll())
+  res.send(await container.getAll())
+  })
+
+app.get('/productoRandom',async (req,res)=>{
+  //console.log(await container.getAll())
+  res.send(await container.getRandomElement())
   })
