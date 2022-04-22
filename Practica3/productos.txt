@@ -1,0 +1,56 @@
+[
+          {
+                    "title": "Bufanda Verde",
+                    "price": 1168,
+                    "thumbnail": "url521.png",
+                    "id": 1
+          },
+          {
+                    "title": "Playera Cafe",
+                    "price": 1407,
+                    "thumbnail": "url741.png",
+                    "id": 2
+          },
+          {
+                    "title": "Blusa Negra",
+                    "price": 108,
+                    "thumbnail": "url1637.png",
+                    "id": 3
+          },
+          {
+                    "title": "Playera Amarilla",
+                    "price": 1082,
+                    "thumbnail": "url1191.png",
+                    "id": 4
+          },
+          {
+                    "title": "Chamarra Blanca",
+                    "price": 1837,
+                    "thumbnail": "url657.png",
+                    "id": 5
+          },
+          {
+                    "title": "Chamarra Rojo",
+                    "price": 1806,
+                    "thumbnail": "url1709.png",
+                    "id": 6
+          },
+          {
+                    "title": "Playera Cafe",
+                    "price": 1870,
+                    "thumbnail": "url598.png",
+                    "id": 7
+          },
+          {
+                    "title": "Bufanda Cafe",
+                    "price": 117,
+                    "thumbnail": "url1071.png",
+                    "id": 8
+          },
+          {
+                    "title": "Chamarra Cafe",
+                    "price": 931,
+                    "thumbnail": "url994.png",
+                    "id": 9
+          }
+]
