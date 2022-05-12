@@ -1,0 +1,7 @@
+En este archivos se van a escribir algunos iconos de prueba para poder ponerlos en el input URL
+
+https://cdn1.iconfinder.com/data/icons/flat-christmas-icons-1/75/_card_stocking-128.png
+https://cdn3.iconfinder.com/data/icons/shopping-icons-14/128/16_Clothes-128.png
+https://cdn3.iconfinder.com/data/icons/sport-free/24/Sport__Sport_Jersey_Shirt_Clothes_Tshirt_-128.png
+https://cdn3.iconfinder.com/data/icons/sport-free/24/Sport__Sport_Short_Pants_Jersey_Clothes_Game-128.png
+https://cdn0.iconfinder.com/data/icons/summer-set-2/64/Swimsuit-128.png

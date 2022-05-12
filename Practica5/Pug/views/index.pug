@@ -1,0 +1,30 @@
+html
+  head
+    title='Mi primera plantilla Pg JS'
+    link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'
+    integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous')
+    
+    link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+    
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    
+  body
+    script(src='https://code.jquery.com/jquery-3.2.1.min.js'
+           integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='
+           crossorigin='anonymous')
+           
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'
+           integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa' crossorigin='anonymous')
+
+    .w-25.mx-auto.mt-5.bg-light
+      form(style="mx-auto mt-5" action='/productos' method='POST')
+        .form-group
+          label(for='nombre') Nombre
+          input#nombreInput.form-control(type='text' name='title' placeholder='Nombre producto')
+        .form-group
+          label(for='precio') Precio
+          input#precioInput.form-control(type='number' name='price' placeholder='$$$')
+        .form-group
+          label(for='url') URL
+          input#urlInput.form-control(type='text' name='thumbnail' placeholder='URL')
+        button.btn.btn-primary(type='submit') Submit

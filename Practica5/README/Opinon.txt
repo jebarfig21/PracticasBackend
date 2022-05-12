@@ -1,0 +1,19 @@
+Lo que mas me gustó fue Ejs, porque :
+
+* Me dio pocos problemas para instalarlo e implementarlo
+* Mantiene la sintaxis ya conocida de HTML
+* Más intuitivo
+
+Por otra lado estos son mis comentarios de pug
+Pug :
+* No pude poner bien los estilo de bootstrap, no me gustó eso
+* Me encantó que usen identación, y la sintaxis se ve limpia por lo mismo(el programa te obliga a identar correcto),
+me recuerda mucho a python y me gusta mucho python
+* Fuera del tema de bootstrap me gustó, pero eso le quitó muchos puntos, queda en segundo lugar
+* No pude meter plantillas dentro de plantillas para usar los header por ejemplo
+
+Comentarios de Handlebars:
+
+* Considero que es muy estricto en su estructura y por lo tanto podría servir para proyectos robustos
+* Me gustó, pero fue horrible configurarlo hay varias maneras por diferentes lados y varía mucho respecto a la versión anterior
+* por lo mismo hay mucha info que ya esta deprecated
