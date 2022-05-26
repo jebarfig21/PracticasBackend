@@ -1,0 +1,22 @@
+<script>
+var socket = io();
+$('form').submit(function(){
+    var msg = $('#message').val();
+    var user = $('#username').val();
+    if(msg.length > 0)
+        socket.emit('chat message',{msg:msg,
+                                    user:user
+        })
+    else
+        console.log("Enter a valid msg :)");
+    $('#message').val("");
+    $('#username').val("");
+    return false;
+});
+
+socket.on('chat message', function(data){
+    console.log(data)
+    $("#messages").append('<li class="list-group-item">'+data.user+' : '+data.msg+'</li>');
+});
+
+</script>
